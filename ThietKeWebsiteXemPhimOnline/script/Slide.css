@@ -1,0 +1,92 @@
+aside#slide{
+	margin-left:100px;
+	width: 89%;
+}
+.slide-pager{
+	position: relative;
+}
+.slide-control-prev{
+	position: absolute;
+	text-align: center;
+	width: 25px;
+	height: 60px;
+	background: #F90;
+	line-height: 60px;
+	color: #fff;
+	cursor: pointer;
+	top:102px;
+	left: -34px;
+	z-index: 1000;
+}
+
+.slide-control-next{
+	position: absolute;
+	text-align: center;
+	width: 25px;
+	height: 60px;
+	background: #F90;
+	line-height: 60px;
+	color: #fff;
+	cursor: pointer;
+	top:102px;
+	right: 34px;
+	z-index: 1000;
+}
+.slide-container{
+	height: 255px;
+	width: 92%;
+	overflow: hidden;
+	position: relative;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slide-stage{
+	position: absolute;
+}
+
+.slide-image img{
+	width: 170px;
+	height: 250px;
+	margin: 0 auto;
+}
+.slide-image{
+	float: left;
+	width: 200px;
+	text-align: center;
+}
+.l{
+	width: 625px;
+	padding:0px 8px;
+	border: 1px dashed #808080;
+	background-color: #D0D0D0;
+}.l>p
+{
+	background: linear-gradient(#a5b4c4, #206AB5, #206AB5);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	text-align: center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+	width: 100%;
+}
+.l>div> input[type=submit]
+{
+	color: aliceblue;
+	width: 100px;
+	background-color: #000000;
+	text-align: center;
+	height: 50px;
+}
+.l>div> input[type=reset]
+{
+	color: aliceblue;
+	width: 100px;
+	background-color: #000000;
+	text-align: center;
+	height: 50px;
+}
+
